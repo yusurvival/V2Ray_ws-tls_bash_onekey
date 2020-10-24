@@ -19,9 +19,9 @@ cd "$(
 Green="\033[32m"
 Red="\033[31m"
 #Yellow="\033[33m"
-GreenBG="\033[42;37m"
+GreenBG="\033[42;30m"
 RedBG="\033[41;37m"
-YellowBG="\033[43;37m"
+YellowBG="\033[43;30m"
 Font="\033[0m"
 
 #notification information
