@@ -420,7 +420,7 @@ nginx_install() {
         --with-cc-opt='-O3' \
         --with-ld-opt="-ljemalloc" \
         --with-stream \
-        --ngx_stream_ssl_preread_module \
+        --ngx-stream_ssl_preread_module \
         --with-openssl=../openssl-"$openssl_version"
     judge "编译检查"
     make -j "${THREAD}" && make install
